@@ -2,7 +2,7 @@
 
 **Lizenz: MIT-Lizenz**
 
-![iPhone Bildschirmfoto](/images/waterlevelScreenshot.png)
+<img src="/images/waterlevelScreenshot.png" height="695" width="321">
 
 Dieses Projekt enthält 2 Skripte zum Anzeigen von aktuellen Wasserstandsmeldungen in Deutschland.
 

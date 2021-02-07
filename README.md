@@ -2,7 +2,7 @@
 
 **Lizenz: MIT-Lizenz**
 
-<img src="/images/waterlevelScreenshot.png" height="695" width="321">
+<kbd><img src="/images/waterlevelScreenshot.png" height="695" width="321"></kbd> <kbd><img src="/images/stationsScreenshot.png" height="695" width="413"></kbd>
 
 Dieses Projekt enthält 2 Skripte zum Anzeigen von aktuellen Wasserstandsmeldungen in Deutschland.
 
@@ -16,8 +16,6 @@ Als Parameter für das Widget muss die jeweilige **uuid** der Messstelle angegeb
 [PEGELONLINE Messstellen](https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json)
 
 Dort einfach nach dem Ort suchen und die jeweilige **uuid** kopieren und als Parameter eintragen.
-
-![uuid der Messtelle Köln](/images/stationsScreenshot.png)
 
 ## Installation
 

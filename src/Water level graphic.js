@@ -6,7 +6,7 @@
 const defaultUuid = "ccccb57f-a2f9-4183-ae88-5710d3afaefd" // default uuid 'Magdeburg-Strombrücke'
 let param = args.widgetParameter
 const widget = new ListWidget()
-param = "1"
+
 if (param != null && param.length > 0) {
     uuid = param.trim()
     if (uuid.length != 36) {

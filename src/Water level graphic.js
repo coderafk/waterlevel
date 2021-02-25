@@ -13,6 +13,8 @@ if (param != null && param.length > 0) {
         const textColor = new Color("#FF0000")
         msg = "The uuid for a station must have a length of 36 chars but this '" + uuid + "' has " + uuid.length.toString() + "!"
         setText(widget, msg, textColor, 12)
+    } else {
+        await createWidget(widget, uuid)
     }
 } else {
     uuid = defaultUuid

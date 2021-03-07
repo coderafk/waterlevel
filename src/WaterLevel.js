@@ -14,7 +14,6 @@ const mapProvider = "openstreetmap";
 
 //#region color constants
 const textColor = new Color("#FFE640");
-const errorTextColor = new Color("#FF0000");
 const backgroundGradientStartColor = new Color("#141E30");
 const backgroundGradientEndColor = new Color("#4682a1");
 //#endregion
@@ -71,21 +70,10 @@ class StationLocation {
     this.longitude = longitude;
   }
 }
-
-class Station {
-  constructor(uuid, shortname, longname, location, distanceToCurrentLocation) {
-    this.uuid = uuid;
-    this.shortname = shortname;
-    this.longname = longname;
-    this.location = location;
-    this.distanceToCurrentLocation = distanceToCurrentLocation;
-  }
-}
 //#endregion
 
-//#region default values of 'Magdeburg-Strombrücke'
+//#region default location of 'Magdeburg-Strombrücke'
 //defaultLoctaion is only used if no location service is available and no uuid as parameter is given
-const defaultUuid = "ccccb57f-a2f9-4183-ae88-5710d3afaefd";
 const defaultLocation = new StationLocation(52.12958, 11.64412);
 //#endregion
 

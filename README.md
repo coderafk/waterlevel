@@ -22,6 +22,15 @@ Dort einfach nach dem Ort suchen und die jeweilige **uuid** kopieren und als Par
 
 ## Installation
 
+### Vorraussetzung
 - Zunächst muss im App-Store die App [Scriptable](https://apps.apple.com/de/app/scriptable/id1405459188) installiert werden.
+
+#### Script Installation
+
+##### Installation mit ScriptDude
+ScriptDude ist ein Skript-Paketmanager für Scriptable der die Installation von Skripten vereinfachen soll.
+[![Download with ScriptDude](https://scriptdu.de/download.svg)](https://scriptdu.de/?name=WaterLevel&source=https%3A%2F%2Fraw.githubusercontent.com%2Fcoderafk%2Fwaterlevel%2Fmain%2Fsrc%2FWaterLevel.js&docs=https%3A%2F%2Fgithub.com%2Fcoderafk%2Fwaterlevel#home)
+
+##### Manuell
 - Das Skript aus dem Verzeichnis **src** auf dem iPhone nach **Dateien** (icloud) in das Verzeichnis **Scriptable** kopieren oder direkt in der App hinzufügen.
 - Jetzt das Scriptable-Widget einfach auf dem iPhone einrichten und das Skript WaterLevel auswählen.

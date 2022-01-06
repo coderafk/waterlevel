@@ -537,7 +537,7 @@ function getTrend(trend) {
 
 //#region internet request functions
 async function CheckInternetConnection() {
-  result = await getRequest("http://pegelonline.wsv.de");
+  result = await getRequest("https://pegelonline.wsv.de");
   if (result == false) {
     drawError(translation.noInternetConnection);
     return false;

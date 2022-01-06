@@ -327,8 +327,8 @@ async function getUuidFromLocation(location) {
   );
 
   if (result.length == 0) {
-    console.log("getUuidFromLocation: " + this.noStationFound(searchRadius));
-    drawError(this.noStationFound(searchRadius));
+    console.log("getUuidFromLocation: " + translation.noStationFound(searchRadius));
+    drawError(translation.noStationFound(searchRadius));
     return false;
   }
 

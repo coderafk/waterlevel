@@ -31,10 +31,10 @@ class Translation {
       this.noInternetConnection =
         "Der Server von Pegelonline konnte nicht erreicht werden. Besteht eine Internetverbindung?";
       this.noValidUuid = (uuid) => {
-        return `Die Stations uuid '${uuid}' ist nicht gültig.`;
+        return `Die Stations-uuid '${uuid}' ist nicht gültig.`;
       };
       this.uuidNotFound = (uuid) => {
-        return `Die Stations uuid '${uuid}' konnte nicht gefunden werden.`;
+        return `Die Stations-uuid '${uuid}' konnte nicht gefunden werden.`;
       };
       this.errorGettingStationData =
         "Beim Laden der Stationsdaten ist ein unbekannter Fehler aufgetreten.";
@@ -42,24 +42,24 @@ class Translation {
         return `Für die Station '${name}' konnten keine Messdaten gefunden werden.`;
       };
       this.noStationFound = (searchRadius) => {
-        return `Es konnte im Umkreis von ${searchRadius} km keine Station gefunden werden. Bitte den Suchradius im Skript vergrößern oder eine manuell eine Stations uuid festlegen.`;
+        return `Es konnte im Umkreis von ${searchRadius} km keine Station gefunden werden. Bitte den Suchradius im Skript vergrößern oder manuell eine Stations-uuid festlegen.`;
       };
       return;
     }
     this.noInternetConnection =
       "The Pegelonline server could not be reached.  Is there an internet connection?";
     this.noValidUuid = (uuid) => {
-      return `The station uuid '${uuid}' is not valid!`;
+      return `The station-uuid '${uuid}' is not valid!`;
     };
     this.uuidNotFound = (uuid) => {
-      return `The station uuid '${uuid}' could not be found.`;
+      return `The station-uuid '${uuid}' could not be found.`;
     };
     this.errorGettingStationData = "Unknown error getting station data!";
     this.noMeasurementData = (name) => {
       return `No measurement data could be found for the station '${name}'.`;
     };
     this.noStationFound = (searchRadius) => {
-      return `No station could be found within a radius of ${searchRadius} km. Please increase the search radius in the script or manually specify a station uuid.`;
+      return `No station could be found within a radius of ${searchRadius} km. Please increase the search radius in the script or manually specify a station-uuid.`;
     };
   }
 }
@@ -73,7 +73,7 @@ class StationLocation {
 //#endregion
 
 //#region default location of 'Magdeburg-Strombrücke'
-//defaultLoctaion is only used if no location service is available and no uuid as parameter is given
+//defaultLocation is only used if no location service is available and no uuid as parameter is given
 const defaultLocation = new StationLocation(52.12958, 11.64412);
 //#endregion
 
